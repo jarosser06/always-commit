@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "always-commit",
-      "source": ".",
+      "source": "./",
       "description": "Auto-commit hook for Claude Code with AI-generated messages",
       "version": "0.1.0"
     }
