@@ -1,0 +1,17 @@
+{
+  "description": "Auto-commit hook for Claude Code file changes",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/scripts/auto-commit.sh",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

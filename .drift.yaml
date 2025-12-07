@@ -1,0 +1,31 @@
+# Drift Configuration for drift project
+# Rules are loaded from .drift_rules.yaml
+
+providers:
+  claude-code:
+    provider: claude-code
+    params: {}
+
+models:
+  sonnet:
+    provider: claude-code
+    model_id: sonnet
+    params:
+      max_tokens: 4096
+      temperature: 0.0
+  haiku:
+    provider: claude-code
+    model_id: haiku
+    params:
+      max_tokens: 4096
+      temperature: 0.0
+
+default_model: sonnet
+
+agent_tools:
+  claude-code:
+    enabled: true
+
+conversations:
+  mode: latest
+  days: 7

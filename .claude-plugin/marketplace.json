@@ -1,0 +1,16 @@
+{
+  "name": "always-commit",
+  "description": "Auto-commit plugin marketplace",
+  "owner": {
+    "name": "Jim Rosser",
+    "url": "https://github.com/jarosser06"
+  },
+  "plugins": [
+    {
+      "name": "always-commit",
+      "source": ".",
+      "description": "Auto-commit hook for Claude Code with AI-generated messages",
+      "version": "0.1.0"
+    }
+  ]
+}
